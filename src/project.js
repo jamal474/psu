@@ -3,7 +3,35 @@ import github from './images/Github.svg'
 import img from './images/img_no.jpg'
 
 function Project(props) {
-    
+//     let imgg;
+//    switch(props.id)
+//    {
+//     case "1" :
+//         {
+//             imgg = `${img1}`;
+//             break;
+//         }
+//     case "2" :
+//         {
+//             imgg = `${img2}`;
+//             break;
+//         }
+//     case "3" :
+//         {
+//             imgg = `${img3}`;
+//             break;
+//         }
+//     case "4" :
+//         {
+//             imgg = `${img4}`;
+//             break;
+//         }
+//     case "5" : 
+//         {
+//             imgg = `${img5}`;
+//             break;
+//         }     
+//   }
     return (
         
         <div className="project">

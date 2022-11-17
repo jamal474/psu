@@ -51,6 +51,15 @@ body::-webkit-scrollbar-thumb {
   border-radius: 20px;
   box-shadow: -2px -2px 5px white, 1px 1px 5px black;
 }
+.card-upload-form {
+  background-color: #dac8a8;
+  padding :10px;
+  max-width : 300px;
+  margin : auto;
+  height : 500px;
+  border-radius: 20px;
+  box-shadow: -2px -2px 5px white, 1px 1px 5px black;
+}
 .card-sign-up {
   background-color: #dac8a8;
   padding :10px;
