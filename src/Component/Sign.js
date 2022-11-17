@@ -2,6 +2,7 @@ import React from "react";
 import {Dashboard} from "./Dashboard";
 import { Login } from "./Login";
 import { Register } from "./Register";
+import UploadForm from "./UploadForm";
 
 export default function Sign() {
   const [currentForm, setCurrentForm] = React.useState("login");
@@ -30,6 +31,9 @@ export default function Sign() {
         else if(currentForm === "dashboard")
         {
           return <Dashboard onFormSwitch={toggleForm} ele = {ele}/>
+        }
+        else if(currentForm === "UploadForm"){
+          return <UploadForm onFormSwitch={toggleForm} ele = {ele}/>
         }
       })()
       }

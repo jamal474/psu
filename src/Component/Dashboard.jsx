@@ -8,11 +8,12 @@ export const Dashboard = props => {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/api/projects/all`)
+        const response = await fetch(`https://prototype-se.herokuapp.com/api/projects/all`)
         const responseData = await response.json()
         console.log(responseData)
         setLoadedItems(responseData.items)
-      } catch (err) {
+      } catch (err) 
+      {
         console.log(err)
       }
     }
@@ -55,10 +56,8 @@ export const Dashboard = props => {
               <img src={search} />
             </button>
           </form>
-          <div className='upload'>
-            <h2>Upload</h2>
-            <img src={upload} className='upload-icon' />
-          </div>
+          <div onClick={() => props.onFormSwitch('UploadForm')} className = "upload"><h2>Upload</h2><img src = {upload} className = "upload-icon"/></div>
+            
         </div>
         <main className='d-main'>{tile}</main>
       </div>

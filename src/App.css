@@ -69,6 +69,7 @@ body::-webkit-scrollbar-thumb {
   justify-content: space-around;
 }
 
+
 .sign-up-card{
   display : flex;
   max-width: 300px;
@@ -97,6 +98,14 @@ body::-webkit-scrollbar-thumb {
   box-shadow: inset 0px 1px 2px rgb(151, 151, 151);
   font-family: Poppins;
   font-size: 15px;
+}
+.card-upload-form {
+  background-color: #dac8a8;
+  padding: 40px 0px;
+  max-width : 300px;
+  margin : auto;
+  border-radius: 20px;
+  box-shadow: -2px -2px 5px white, 1px 1px 5px black;
 }
 
 .sign-in-btn {
